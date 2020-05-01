@@ -7,6 +7,7 @@
 
 涉及技术：Jsp + Java + MySql;（jdbc,jstl,c3p0,datasource,html,css,js,jquery）  
 工作内容：需求分析+代码编写+打包部署；  
+开发环境：IDEA + Tomcat + MacBook Pro  
 预计时间：5天；  
 
 

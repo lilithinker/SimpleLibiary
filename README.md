@@ -5,9 +5,9 @@
 
 ## 简易图书管理系统，包括以下内容：
 
-涉及技术：Jsp + Java + MySql;（jdbc,jstl,c3p0,datasource,html,css,js,jquery）
-工作内容：需求分析+代码编写+打包部署；
-预计时间：5天；
+涉及技术：Jsp + Java + MySql;（jdbc,jstl,c3p0,datasource,html,css,js,jquery）  
+工作内容：需求分析+代码编写+打包部署；  
+预计时间：5天；  
 
 
 ### 一，注册：

@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="libiary_project:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/libiary_project_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="libiary_project/web/Web" />
+      <element id="javaee-facet-resources" facet="library_project/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="libiary_project" />
+          <element id="module-output" name="library_project" />
         </element>
       </element>
     </root>

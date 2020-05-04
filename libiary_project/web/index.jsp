@@ -11,6 +11,6 @@
     <title>Books</title>
   </head>
   <body>
-  book pages
+
   </body>
 </html>

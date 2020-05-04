@@ -1,4 +1,4 @@
-package com.lili.libiary;
+package com.lili.library;
 
 public class Test {
     public static void main(String[] args) {

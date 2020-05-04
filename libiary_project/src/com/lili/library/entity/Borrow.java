@@ -1,13 +1,15 @@
 package com.lili.library.entity;
 
+import java.util.UUID;
+
 public class Borrow {
-    private long id;
+    private UUID id;
     private Reader reader;
     private Admin admin;
     private Book book;
     private BorrowStatus borrowStatus;
 
-    public Borrow(long id, Reader reader, Admin admin, Book book, BorrowStatus borrowStatus) {
+    public Borrow(UUID id, Reader reader, Admin admin, Book book, BorrowStatus borrowStatus) {
         this.id = id;
         this.reader = reader;
         this.admin = admin;
@@ -15,11 +17,11 @@ public class Borrow {
         this.borrowStatus = borrowStatus;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

@@ -1,9 +1,10 @@
 package com.lili.library.entity;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Book {
-    private long id;
+    private UUID id;
     private String name;
     private String author;
     private String press;
@@ -13,7 +14,7 @@ public class Book {
     private int counts;
     private long bookTypeId;
 
-    public Book(long id, String name, String author, String press, float price, int pages, Date tomeToLibrary, int counts, long bookTypeId) {
+    public Book(UUID id, String name, String author, String press, float price, int pages, Date tomeToLibrary, int counts, long bookTypeId) {
         this.id = id;
         this.name = name;
         this.author = author;
@@ -25,11 +26,11 @@ public class Book {
         this.bookTypeId = bookTypeId;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

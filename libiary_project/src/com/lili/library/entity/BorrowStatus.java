@@ -1,19 +1,21 @@
 package com.lili.library.entity;
 
+import java.util.UUID;
+
 public class BorrowStatus {
-    private long id;
+    private UUID id;
     private String status;
 
-    public BorrowStatus(long id, String status) {
+    public BorrowStatus(UUID id, String status) {
         this.id = id;
         this.status = status;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

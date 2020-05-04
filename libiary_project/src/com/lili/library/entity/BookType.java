@@ -1,19 +1,21 @@
 package com.lili.library.entity;
 
+import java.util.UUID;
+
 public class BookType {
-    private long id;
+    private UUID id;
     private String type;
 
-    public BookType(long id, String type) {
+    public BookType(UUID id, String type) {
         this.id = id;
         this.type = type;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

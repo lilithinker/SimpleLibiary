@@ -1,7 +1,11 @@
 package com.lili.library;
 
+import java.util.UUID;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
+        System.out.println(uuid.toString().length());
     }
 }

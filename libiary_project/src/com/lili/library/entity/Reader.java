@@ -1,7 +1,9 @@
 package com.lili.library.entity;
 
+import java.util.UUID;
+
 public class Reader {
-    private long id;
+    private UUID id;
     private String name;
     private int age;
     private String major;
@@ -10,7 +12,7 @@ public class Reader {
     private String username;
     private String password;
 
-    public Reader(long id, String name, int age, String major, String grade, String telephone, String username, String password) {
+    public Reader(UUID id, String name, int age, String major, String grade, String telephone, String username, String password) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -21,11 +23,11 @@ public class Reader {
         this.password = password;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

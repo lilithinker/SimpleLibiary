@@ -1,21 +1,23 @@
 package com.lili.library.entity;
 
+import java.util.UUID;
+
 public class Admin {
-    private long id;
+    private UUID id;
     private String username;
     private String password;
 
-    public Admin(long id, String username, String password) {
+    public Admin(UUID id, String username, String password) {
         this.id = id;
         this.username = username;
         this.password = password;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

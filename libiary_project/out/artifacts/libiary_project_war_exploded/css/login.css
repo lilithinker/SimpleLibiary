@@ -1,0 +1,15 @@
+.input-item label{
+    display: inline-block;
+    width: 55px;
+}
+.input-radio label:first-child{
+    margin-left: 55px;
+}
+.input-radio input:first-child{
+    margin-right: 12px;
+}
+form input[type=submit]{
+    width: 60px;
+    margin-left: 85px;
+    margin-top: 20px;
+}

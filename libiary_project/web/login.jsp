@@ -31,6 +31,7 @@
         </div>
         <input type="submit" value="登陆">
     </form>
+    <button id="register">注册</button>
 </div>
 
 </body>

@@ -25,19 +25,21 @@ public class JDBCTool {
         return connection;
     }
 
-    public static void release(Connection connection, PreparedStatement preparedStatement, ResultSet resultSet) throws SQLException {
+    public static void release(Connection connection, PreparedStatement preparedStatement, ResultSet resultSet){
+        try {
+            if(connection != null){
+                connection.close();
+            }
 
-        if(connection != null){
-            connection.close();
+            if(preparedStatement != null){
+                preparedStatement.close();
+            }
+
+            if(resultSet != null){
+                resultSet.close();
+            }
+        }catch (SQLException e){
+            e.printStackTrace();
         }
-
-        if(preparedStatement != null){
-            preparedStatement.close();
-        }
-
-        if(resultSet != null){
-            resultSet.close();
-        }
-
     }
 }

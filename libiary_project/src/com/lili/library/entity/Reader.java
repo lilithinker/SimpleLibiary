@@ -23,6 +23,21 @@ public class Reader {
         this.password = password;
     }
 
+    public Reader(String name, int age, String major, String grade, String telephone, String username, String password) {
+        this.name = name;
+        this.age = age;
+        this.major = major;
+        this.grade = grade;
+        this.telephone = telephone;
+        this.username = username;
+        this.password = password;
+    }
+
+    public Reader(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
     public UUID getId() {
         return id;
     }
